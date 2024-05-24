@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    background-color:darkmagenta;
+}
+.titlebar{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+}
+.container{
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.container div{
+    width: 200px;
+    color: white;
+    margin: 10px;
+}
